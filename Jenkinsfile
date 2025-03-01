@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh 'sh "ls -a"'
+        sh 'sh \'whoami\''
       }
     }
 
